@@ -1,0 +1,100 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title,
+#description {
+    text-align: center;
+    color: rgb(233, 233, 233);
+    font-size: 200%;
+}
+
+#title {
+    font-size: 250%;
+    margin-bottom: 0%;
+}
+
+#description {
+    margin-top: 1%;
+    color: rgb(211, 209, 209);
+    font-size: 140%;
+}
+
+#survey-form {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.72);
+    margin: 1% 25%;
+    padding: 2.5% 2.5%;
+}
+
+/* 
+div {
+    display: block;
+} */
+
+.form-group {
+    /* text-align: center; */
+    padding: 1%;
+    margin: 0% 2% 2% 1%;
+    color: rgb(233, 233, 233);
+    font-size: 20px;
+}
+
+
+#name,
+#email,
+#number,
+#dropdown,
+#submit,
+#comments {
+    width: 96%;
+    border-radius: 0.25rem;
+    border-color: black;
+    box-shadow: 1%;
+    padding: 2%;
+}
+
+#comments {
+    padding: 2%;
+
+}
+
+p {
+    text-align: left;
+}
+
+label {
+    display: flex;
+    margin: 1% 0%;
+}
+
+input,
+select {
+    font-size: 80%;
+}
+
+select {
+    width: 100%;
+    font-size: 80%;
+}
+
+#submit {
+    width: 100%;
+    color: rgb(233, 233, 233);
+    font-size: 90%;
+    background-color: rgb(107, 199, 107);
+}
+
+#submit:hover {
+    border-color: blue;
+    background-color: rgb(196, 192, 192);
+}
+
+.btn:hover {
+    border: 2px solid blue;
+    background-color: rgb(233, 233, 233);
+}

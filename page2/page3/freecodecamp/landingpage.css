@@ -1,0 +1,182 @@
+body {
+    background-color: rgba(194, 194, 194, 0.348);
+}
+
+#header-img {
+    max-width: 25%;
+    margin: 1% auto auto 3%;
+}
+
+#nav-bar {
+    /* max-width: 70%; */
+    margin-top: 0px;
+    padding: 0px;
+    /* text-align: right; */
+    /* display: flex; */
+}
+
+#nav-bar li {
+    float: right;
+    margin-top: 0px;
+    position: sticky;
+    margin-right: 5%;
+    list-style-type: none;
+    padding: 2%;
+}
+
+#nav-bar li a {
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+}
+
+#nav-bar ul {
+    position: sticky;
+    top: 0;
+}
+
+#form {
+    text-align: center;
+    padding: 2%;
+}
+
+#email {
+    /* font-size: large; */
+    width: 20%;
+    padding: 0.5%;
+}
+
+#submit {
+    width: 8%;
+    padding: 0.25%;
+    margin-top: 1%;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    margin: 1% auto 1% 15%;
+}
+
+.logo {
+    height: 4%;
+    width: 5%;
+    margin: 1% 6%;
+    display: flex;
+}
+
+img {
+    width: 150%;
+    height: 150%;
+}
+
+#delidetail {
+    margin-left: 0%;
+}
+
+/* 
+#delilogo {
+    width: 15%;
+    height: 15%;
+    margin-right: 0%;
+} */
+
+.detail {
+    align-items: left;
+}
+
+.detail h2 {
+    margin-bottom: 0%;
+}
+
+.detail p {
+    margin-top: 0%;
+
+}
+
+/* #work {
+    height: 200%;
+}*/
+
+iframe {
+    /* text-align: center; */
+    margin-left: 25%;
+}
+
+#price {
+    display: flex;
+    margin: 2% 15%;
+    padding: 2%;
+    height: 17rem;
+    /* width: 200%; */
+
+}
+
+.block {
+    border: 1px solid black;
+    /* padding: 2%; */
+    display: block;
+    text-align: center;
+    margin: 0% 1%;
+    width: 50%;
+    /* height: 80%; */
+}
+
+.block div {
+    margin-top: 0%;
+    padding: 3%;
+    background-color: rgb(179, 179, 179);
+}
+
+.block ul {
+    margin-bottom: 7%;
+}
+
+.block ul li {
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 3%;
+}
+
+button {
+    background-color: orange;
+    border: none;
+}
+
+button:hover {
+    border: 1px solid black;
+    background-color: orangered;
+}
+
+/* .block div {
+    display: flex;
+} */
+
+footer {
+    margin: auto 17%;
+    margin-bottom: 0%;
+    background-color: rgb(190, 190, 190);
+    padding: 0.7%;
+    border-radius: 1.5rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+footer span {
+    margin-right: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+
+    list-style-type: none;
+    margin-right: 1%;
+    /* padding: 1% 0%; */
+}
