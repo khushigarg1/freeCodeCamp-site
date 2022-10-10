@@ -111,7 +111,7 @@ body {
 }
 .secondp{
     color: rgb(156, 151, 151);
-    font-size: large;
+    font-size: x-large;
 }
 .card:not(:first-child) {
     margin-left: -60px;
