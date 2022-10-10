@@ -11,6 +11,7 @@ body {
     min-height: 100vh;
     background: rgb(219, 39, 39);
     overflow-y: hidden;
+    overflow-x: hidden;
     /* animation: animate 2s fadeOut; */
 }
 .wavy span{
@@ -28,6 +29,7 @@ body {
     background-color: black;
     animation: expand 1s ease forwards;
     transition: all 1s ease;
+    overflow: hidden;
   }
 
 .wavy {

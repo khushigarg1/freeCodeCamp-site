@@ -110,17 +110,18 @@ body {
     font-size: xx-large;
 }
 .secondp{
+    color: rgb(156, 151, 151);
     font-size: large;
 }
 .card:not(:first-child) {
     margin-left: -60px;
 }
 .card:hover {
-    transform: translateY(-20px);
+    transform: translate(-55px, -20px);
     transition: 0.4s ease-out;
 }
 
-.card-2container{
+/* .card-2container{
     display: flex;
     height: 100vh;
     justify-content: space-evenly;
@@ -133,7 +134,6 @@ body {
 .card2{
     align-items: center;
     color: #32a9ea;
-    /* font-size: 130%; */
     height: 50%;
     width: 18%;
     display: flex;
@@ -147,14 +147,13 @@ body {
     transition: 0.4s ease-out;
     left: 0px;
     padding: 2%;
-    /* margin-left: 0% 30%; */
 }
 .card2 {
     font-size:large;
 }
 .hovercard{
     font-size: xx-large;
-}
+} */
 
 @keyframes slideIn {
     0% {
